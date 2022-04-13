@@ -1,0 +1,193 @@
+<div class="container">
+    <header class="header">
+       <h1 id="title">
+         SURVEY ON PROGRAMMING</h1>
+      <p id="discription" class="description text-center">
+        Let see how good programmer you are
+      </p>
+      </header>
+    <form id="survey-form">
+      <div id= "form group">
+         <label id="name-label"for="name">Name</label>
+         <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required/>
+        </div>
+     
+   <div class="form-group">
+    
+       <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number"
+          >Age</label>
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Age"
+               required
+        />
+      </div>
+     <div class="form-group">
+        <p>select your preferred language?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select your language</option>
+          <option value="c">c</option>
+          <option value="c++">c++</option>
+          <option value="python">python</option>
+          <option value="java">java</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+       <div class="form-group">
+        <p>why you choose programming</p>
+        <label>
+          <input
+            name="name"
+            value="FUN"
+            type="radio"
+            class="input-radio"
+            checked
+          />For Fun</label
+        >
+        <label>
+          <input
+            name="name"
+            value="professional"
+            type="radio"
+            class="input-radio"
+          />Being professional</label
+        >
+  
+        <label
+          ><input
+            name="name"
+            value="fake"
+            type="radio"
+            class="input-radio"
+          />To impress your friends</label
+        >
+      </div>
+       <div class="form-group">
+        <p>
+          select important points on programming
+         </p>
+  
+        <label
+          ><input
+            name="prefer"
+            value="front-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />knowledge about language</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="back-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />data structure</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="data-visualization"
+            type="checkbox"
+            class="input-checkbox"
+          />algorithms</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="challenges"
+            type="checkbox"
+            class="input-checkbox"
+          />logic</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="open-source-community"
+            type="checkbox"
+            class="input-checkbox"
+          />knowledge of operating system</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="gitter-help-rooms"
+            type="checkbox"
+            class="input-checkbox"
+          />flow of control</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="videos"
+            type="checkbox"
+            class="input-checkbox"
+          />TOC</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="city-meetups"
+            type="checkbox"
+            class="input-checkbox"
+          />Knowledge of computers</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="wiki"
+            type="checkbox"
+            class="input-checkbox"
+          />hardware</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="forum"
+            type="checkbox"
+            class="input-checkbox"
+          />software</label
+        >
+        
+      <div class="form-group">
+        <p>Any comments according to your view on programming</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+  
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+       
+  </div>
+    </form>
+  
+       
+         
